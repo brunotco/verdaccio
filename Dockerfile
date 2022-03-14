@@ -4,5 +4,6 @@ USER root
 
 ENV NODE_ENV=production
 
-RUN yarn install
+RUN npm install
+
 USER verdaccio
